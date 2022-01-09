@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Product } from '../../app/models/product';
 import ProductList from './ProductList';
 
-export default function Catelog() {
+export default function Catalog() {
   const [products, setProducts] = useState<Product[]>([]);
 
   useEffect(() => {
