@@ -3,7 +3,7 @@ import { BasketItem } from '../../app/models/basket';
 import { Order } from '../../app/models/order';
 import BasketSummary from '../basket/BasketSummary';
 import BasketTable from '../basket/BasketTable';
-import AddressSummary from '../checkout/AddressSummary';
+import AddressSummary from './AddressSummary';
 
 interface Props {
   order: Order;
